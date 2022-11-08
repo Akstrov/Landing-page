@@ -88,7 +88,7 @@ ul{
 .content1 p,
 .header1 ul li a{
     font-size: 18px;
-    color: #E5e7eb;
+    color: #e5e7ebbd;
 }
 .header1 ul li a:hover{
     color: #e5e7eb93;
@@ -99,4 +99,45 @@ ul{
     flex: 1;
     background-color: grey;
     text-align: center;
+}
+
+.o2{
+    display: flex;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 80px;
+}
+.container2 h2{
+    padding: 40px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+.infos{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px 30px;
+}
+
+.info img{
+    border: 2px solid rgb(22, 115, 255);
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+}
+.info p{
+    color: rgb(85, 85, 85);
+    font-size: 18px;
 }
